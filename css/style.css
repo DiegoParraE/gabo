@@ -1,0 +1,109 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    /* esto sirve para que el lienzo no tenga espacios en ninguna parte de la pagina a menos que yo e de uno especial */
+}
+body{
+    background-color: rgb(180, 194, 221);
+}
+.header{
+    background-color: rgb(209, 205, 199);
+    height: 70px; 
+
+}
+.logo{
+    float: left;
+    padding: 10px;
+    /* width:80; */
+    /* height:60;  */
+}
+.menu{
+    float: right;
+    margin: 24px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;  /*se usa para los vinculos con la etiqueta a, pues esta hace que el nombre del texto que tenga el vinculo se subraye, se coloque azul, esta quita eso */
+    padding: 20px;
+}
+.banner{
+    background-image: url(../img/gabo11.jpg); /* para un fondo de pagina o div con imagen en vez de color solido */
+    height: 500px;
+    background-repeat: no-repeat;   /* para que no se repita una image en mosaico */
+    background-size: contain;       /* para contener una imagen en cierta medida */
+}
+.banner h1{
+    text-align: right;
+    font-size: 80px;
+    padding: 150px 10px;
+}
+.tableCategorias{
+    width: auto;
+    margin: 0 auto;
+}
+.cat{
+    padding: 50px;              /* para el rrellenar una etiqueta ya sea un div u otro */
+}                               /* el px es para medida en pixeles y el porcentaje tambien es para medidas */
+.boton_categorias{
+    width: 80px;                /* para el ancho de la etiqueta */
+    height: 80px;               /* para la altura de la etiqueta */
+    background-color: #f38902;/* para el color del fondo */
+    border-radius: 50px;        /* para poner un borde redondo */
+    font-size: 11px;            /* para el tamaño de la letra */
+    margin: 5px;                /* para las margenes */
+    padding: 10px;              /* para rellenar un div podria ser */
+    float: left;                /* para sobreponer cualquier elemento sobre otro */
+    text-align: center;         /* para justificar para alinear a la izq, dere, center */
+    line-height: 60px;          /* para espacio entre caracteres a lo alto */
+    letter-spacing: 1.2px;      /* para espacios entre letras */
+    word-spacing: 5px;          /* para espacios entre palabras */
+    text-indent: 0px;           /* para la sangria */ 
+}
+.boton_categorias:hover{
+    opacity: 0.50;              /* para la opcidad en los div donde yo pase la flecha y se opaque lo indicado */
+}
+.boton_categorias a{
+    text-decoration: none;
+    color: black;             
+                                /* cntr+shift+suprimir en windows elimina el cache del navegador */
+}
+.biografia{
+    background-color: black;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align: justify;
+}
+.biografia h2{
+    padding: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.premios{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    text-align: left;
+}
+.premios table{
+    padding: 30px 100px 30px 100px;
+}
+.premios h2{
+    text-align: center;
+}
+.premios h3{
+    background-color: rgb(255, 145, 19);
+    border: 2px solid rgb(37, 37, 109);
+    padding: 15px 30px 15px 30px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 100px 70px 100px;         /* el primer valo es top "20px" el segundo valor es left "100px" el tercer valor es botton (abajo) "70px" y el cuarto valor es right "100px" */
+    font-family: 'Courier New', Courier, monospace; /* para el estilo de la letra */
+}
+
+
